@@ -1,0 +1,16 @@
+termo_1 = 0
+termo_2= 1
+termo_3 = 0
+
+
+valor = int(input("Digite um número\n: "))
+while valor > termo_3:
+    termo_3 = termo_1 + termo_2
+    termo_1 = termo_2
+    termo_2 = termo_3
+if valor == 0 or valor == 1:
+    print ("Este Numero Faz Parte Da Sequência De Fibonacci")
+elif valor == termo_3:
+    print ("Este Numero Faz Parte Da Sequência De Fibonacci")
+else:
+    print ("Este Numero Não Faz Parte Da Sequência De Fibonacci")
